@@ -8,7 +8,6 @@ redirect_from:
 ---
 
 
-# About Me
 
 I am **Dev Mehrotra**, a passionate researcher and developer specializing in **machine learning**, **sensor development**, and **computational biology**. Currently pursuing my **Master's degree in Computer Science** at the **University of Wisconsin-Madison**, I have a strong foundation in both theoretical and applied aspects of computer science and data science. My work focuses on leveraging advanced machine learning techniques to solve real-world problems in agriculture, pest management, and robotics.
 
@@ -19,17 +18,8 @@ I am **Dev Mehrotra**, a passionate researcher and developer specializing in **m
 
 ---
 
-## Education
-
-- **University of Wisconsin-Madison**, Madison, WI  
-  *Master of Science (MS), Computer Science* – GPA: 4.0  
-  August 2023 – May 2025  
-
-  *Bachelor of Science (BS), Computer Science & Data Science* – GPA: 3.72  
-  August 2021 – May 2023  
 
 ---
-
 ## Research Focus
 
 My research spans multiple domains, including **machine learning**, **sensor technology**, and **agricultural innovation**. Key highlights include:
@@ -39,6 +29,18 @@ My research spans multiple domains, including **machine learning**, **sensor tec
 - **Sensor Evaluation**: Conducted precision assessments of sensors like VL53L3CX and VL6180X, achieving high accuracy in real-world applications.
 
 ---
+
+
+## Education
+
+- **University of Wisconsin-Madison**, Madison, WI  
+  *Master of Science (MS), Computer Science* – GPA: 4.0  
+  August 2023 – May 2025  
+
+  *Bachelor of Science (BS), Computer Science & Data Science* – GPA: 3.72  
+  August 2021 – May 2023  
+---
+
 
 ## Key Achievements
 
