@@ -1,20 +1,11 @@
 ---
-title: "Teaching experience 1"
+title: "Supervised Undergraduate Student - Rishit Malpani"
 collection: teaching
-type: "Undergraduate course"
-permalink: /teaching/2014-spring-teaching-1
-venue: "University 1, Department"
-date: 2014-01-01
-location: "City, Country"
+type: "Undergraduate Supervision"
+permalink: /teaching/2024-rishit-malpani
+venue: "University of Wisconsin-Madison, Computer Science Department"
+date: 2024-01-01
+location: "Madison, WI, USA"
 ---
 
-This is a description of a teaching experience. You can use markdown like any other post.
-
-Heading 1
-======
-
-Heading 2
-======
-
-Heading 3
-======
+Supervised Rishit Malpani in **OpenCV and audio/camera sensor development projects**. The focus was on integrating machine learning techniques with sensor data for real-world applications.
