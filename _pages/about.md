@@ -13,7 +13,6 @@ I am **Dev Mehrotra**, a passionate researcher and developer specializing in **m
 
 ## Contact Information
 - **Email**: [dmehrotra@wisc.edu](mailto:dmehrotra@wisc.edu)  
-- **Mobile**: +1-608-292-0740  
 - **LinkedIn**: [linkedin.com/in/dev-mehrotra](http://www.linkedin.com/in/dev-mehrotra)
 
 ---
