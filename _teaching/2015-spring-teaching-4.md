@@ -1,11 +1,11 @@
 ---
-title: "Supervised Undergraduate Student - Vidit Agrawal"
+title: "Technical Mentoring — Vidit Agrawal"
 collection: teaching
-type: "Undergraduate Supervision"
+type: "Technical Mentoring"
 permalink: /teaching/2023-vidit-agrawal
-venue: "University of Wisconsin-Madison, Computer Science Department"
+venue: "University of Wisconsin–Madison"
 date: 2023-01-01
-location: "Madison, WI, USA"
+location: "Madison, Wisconsin"
 ---
 
-Supervised Vidit Agrawal in **unsupervised learning for unlabeled acoustic data projects**. The focus was on developing machine learning models to analyze and interpret acoustic signals from pests.
+Mentored development of **unsupervised-learning pipelines for unlabeled acoustic data**, focusing on model design, evaluation, and interpretation.

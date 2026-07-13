@@ -1,11 +1,11 @@
 ---
-title: "Supervised Undergraduate Student - Rishit Malpani"
+title: "Technical Mentoring — Rishit Malpani"
 collection: teaching
-type: "Undergraduate Supervision"
+type: "Technical Mentoring"
 permalink: /teaching/2024-rishit-malpani
-venue: "University of Wisconsin-Madison, Computer Science Department"
+venue: "University of Wisconsin–Madison"
 date: 2024-01-01
-location: "Madison, WI, USA"
+location: "Madison, Wisconsin"
 ---
 
-Supervised Rishit Malpani in **OpenCV and audio/camera sensor development projects**. The focus was on integrating machine learning techniques with sensor data for real-world applications.
+Mentored development across **OpenCV analysis and acoustic sensor integration**, connecting computer-vision and audio pipelines with experimental sensing hardware.

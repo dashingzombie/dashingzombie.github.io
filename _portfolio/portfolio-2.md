@@ -1,25 +1,23 @@
 ---
-title: "Antlion Pitch Competition Winner: Insect Eavesdropper"
-excerpt: "Secured first place and $5,000 for the Insect Eavesdropper project.<br/><img src='/images/antlion-pitch.png' alt='Antlion Pitch Competition'>"
+title: "Automated Experimental Platform"
+excerpt: "A modular device-control, video-acquisition, telemetry, and metadata platform for long-duration operation."
 collection: portfolio
 ---
 
-# Antlion Pitch Competition Winner: Insect Eavesdropper
+## Challenge
 
-Secured **first place** and **$5,000** in the **Antlion Pitch Competition** at the **National Entomological Society of America Conference** for the **Insect Eavesdropper** project. This award recognized the innovative approach and potential impact of the project in revolutionizing pest monitoring in agriculture.
+Long-running biological experiments require stable environmental control, continuous observation, and trustworthy metadata. Manual operation does not scale and makes failures difficult to diagnose.
 
----
+## System
 
-## Overview
+I designed and implemented a modular platform that combines custom hardware, device-control software, continuous video acquisition, timestamp-aligned telemetry, structured metadata, and long-run experiment management.
 
-The **Insect Eavesdropper** project leverages machine learning algorithms to identify pest sounds with **96% precision**, even detecting faint sounds produced by pests inside plants. The competition highlighted its potential to transform pest management strategies in agriculture.
+## Engineering capabilities
 
----
+- Continuous, timestamped video acquisition for long-duration experiments
+- Programmatic illumination and moisture control
+- Synchronized telemetry and metadata logging across devices and recordings
+- Modular hardware interfaces supporting multiple experimental configurations
+- Status monitoring and operational tooling for long-running data collection
 
-## Impact
-
-This achievement not only validated the technical innovation of the project but also brought significant attention to its applications in agricultural technology. It opened doors for further funding and collaboration opportunities.
-
----
-
-For more details, check out the [project publication](https://doi.org/10.1101/2024.09.23.614472) or contact me at [dmehrotra@wisc.edu](mailto:dmehrotra@wisc.edu).
+The result is a reusable acquisition architecture that produces traceable, ML-ready datasets under controlled and repeatable operating conditions.

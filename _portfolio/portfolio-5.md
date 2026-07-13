@@ -1,33 +1,19 @@
 ---
-title: "Morgridge Entrepreneurial Bootcamp (MEB) Completion"
-excerpt: "Completed an intensive training program focused on technology entrepreneurship.<br/><img src='/images/morgridge-bootcamp.png' alt='Morgridge Entrepreneurial Bootcamp'>"
+title: "Robot-Assisted Sensor Calibration"
+excerpt: "An automated ROS, Gazebo, and UR5 extrinsic-calibration pipeline validated through sub-2 mm 3D reconstruction residuals."
 collection: portfolio
 ---
 
-# Morgridge Entrepreneurial Bootcamp (MEB) Completion
+## Challenge
 
-Completed the **Morgridge Entrepreneurial Bootcamp (MEB)**, a one-week intensive training program focused on technology entrepreneurship. Co-sponsored by **INSITE** and the **Weinert Center for Entrepreneurship**, the program provided practical tools for opportunity evaluation, team formation, and funding strategies.
+Low-cost time-of-flight sensors are useful only when their pose relative to the system is known accurately. Manual calibration is slow and difficult to validate consistently.
 
----
+## System
 
-## Overview
+I developed an automated extrinsic-calibration workflow for VL53L3CX and VL6180X sensors using ROS, Gazebo, and a UR5 arm.
 
-The bootcamp included case analyses, lectures, expert panels, and market assessment exercises. Participants deepened their understanding of technology strategy and business integration, gaining insights into commercializing innovations like the **Insect Eavesdropper**.
+## Result
 
----
+The workflow achieved positional accuracy of **3.18 mm and 7.29 mm** and orientation accuracy of **0.61° and 2.01°** across the two sensor models. End-to-end pose validation through 3D reconstruction produced residual errors below **2 mm** on unseen planar targets.
 
-## Key Takeaways
-
-- Developed skills in evaluating entrepreneurial opportunities.
-- Gained insights into forming effective teams and securing funding.
-- Enhanced understanding of integrating technology with business strategy.
-
----
-
-## Impact
-
-The bootcamp equipped me with the tools and knowledge to translate research innovations into viable business solutions, contributing to the success of projects like the **Insect Eavesdropper**.
-
----
-
-For more details, contact me at [dmehrotra@wisc.edu](mailto:dmehrotra@wisc.edu).
+[Read the IEEE RA-L paper](https://doi.org/10.1109/LRA.2022.3176453)

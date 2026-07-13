@@ -1,113 +1,108 @@
 ---
 layout: archive
-title: "CV"
+title: "Resume"
 permalink: /cv/
 author_profile: true
 redirect_from:
   - /resume
 ---
-{% include base_path %}
 
-# Education
+ML and hardware engineer with end-to-end experience across sensing platforms, robotics, computer vision, distributed training, and data infrastructure. I turn ambiguous measurement problems into validated systems by connecting hardware design, acquisition software, model development, and quantitative evaluation.
 
-* **Masters of Science (MS), Computer Science**, University of Wisconsin-Madison, Madison, WI  
-  GPA: 4.0 | August 2023 – May 2025 (Expected)
+[Email](mailto:devd@qgg.au.dk) · [Phone](tel:+16082920740) · [LinkedIn](https://www.linkedin.com/in/dev-mehrotra)
 
-* **Bachelor of Science (BS), Computer Science & Data Science**, University of Wisconsin-Madison, Madison, WI  
-  GPA: 3.72 | August 2021 – May 2023
+## Core technical skills
 
----
+- **Hardware and robotics:** sensor integration, device orchestration, camera and illumination control, environmental control, contact microphones, LiDAR, time-of-flight sensors, UR5, ROS, Gazebo
+- **AI and perception:** PyTorch, DINOv2, transformers, diffusion models, VQ-VAE, self-supervised representation learning, OpenCV, NeRF, computer vision, bioacoustic classification
+- **Software and ML infrastructure:** Python, C++, DeepSpeed ZeRO-3, multi-node GPU training, Docker, experiment-control software, telemetry and metadata logging, data ingestion, dataset curation
 
-# Research Experience
+## Engineering experience
 
-### Caicedo Lab  
-**Machine Learning Research Assistant**  
-Morgridge Institute for Research, Madison, WI  
-July 2024 – Present  
+### Center for Quantitative Genetics and Genomics, Aarhus University
 
-- Leveraged **DINOv2** for Latent Representation Learning: Applied DINOv2 to learn latent representations of phenotypic responses in a pooled CRISPRi dataset with multiplexed IF readout. Customized the model for 14-channel images, fine-tuned it, and released it as open source for researchers worldwide.
-- Collaborated with the **Spatial Technology Platform Lab at the Broad Institute**: Analyzed data from D10, D21, and D28 samples, identifying strong separation in UMAP plots. Assessed the model’s discriminative capability through pairwise gene-gene classification, achieving high consistency with Cell Profiler Features and demonstrating effective single-cell embeddings analysis using the above DINOv2 fine-tuned approach.
+**PhD Fellow** · Aarhus, Denmark · June 2025–present
 
-### Bick Lab  
-**Project Lead, Research Assistant**  
-Madison, WI  
-February 2023 – June 2024  
+- Architected a modular long-duration test platform integrating custom hardware, illumination and moisture control, continuous video capture, timestamp-aligned metadata, and experiment-management tooling.
+- Implemented a repeatable image-acquisition and data-ingestion pipeline with camera control, standardized illumination, quality control, and dataset curation; produced **5,000+ curated images** across species.
+- Own the full system lifecycle across hardware integration, device-control software, data schemas, computer-vision pipelines, and quantitative validation.
 
-- Engineered the **Insect Eavesdropper**: Developed a new device from an idea to achieve a 96% precision for pest sound identification, detecting even the faintest sounds produced by pests present inside plants using machine learning algorithms.
-- Data Analysis and Interpretation: Utilized **DINO models, autoencoders, and transformers** in conjunction with other machine learning techniques to analyze large volumes of acoustic data. Identified intricate patterns indicative of pest activity, leading to profound insights into pest behavior and enabling highly effective pest management strategies.
-- Introduced **BugPulse with affordable LiDAR technology**: Achieved a 30% increase in accurate species identification in challenging environments, expanding the scope of reliable data collection for pest management efforts.
-- Enhanced Species Identification with **NERF**: Utilized Neural Radiance Fields (NERF) technology to enhance species identification accuracy within the BugPulse system. By integrating NERF with LiDAR technology, achieved a 30% increase in accurate species identification, enabling more precise and efficient pest monitoring in various environmental conditions.
-- Helped secure **$350,000 USD** in research grants for the project.
+### Caicedo Lab, Morgridge Institute for Research
 
-### UW Robotics and Graphics Lab  
-**Research Assistant**  
-Madison, WI  
-October 2021 – December 2022  
+**Machine Learning Research Assistant** · Madison, Wisconsin · July 2024–May 2025
 
-- Sensor Evaluation and Robustness Testing: Conducted precision assessments of **VL53L3CX** and **VL6180X sensors** using ROS, Gazebo, and a UR5 robot arm, measuring standard deviation in distance measurements at various distances. Also examined the sensors’ tolerance to oblique angles (±40 degrees), ensuring robustness in real-world scenarios.
-- Real-World Calibration Precision: Successfully conducted the calibration procedure in real-world experiments with VL53L3CX and VL6180X sensors. Achieved average position precision of **3.18 mm** and **7.29 mm**, respectively, along with orientation precision of **0.61°** and **2.01°**, respectively.
-- Quality Assessment through 3D Scene Reconstruction: Tested and confirmed the accuracy of calibrated sensor poses through 3D scene reconstruction. Achieved average residuals of less than **2mm** for the VL53L3CX sensor, indicating high-quality reconstruction of previously unseen planar objects.
+- Trained and benchmarked DINOv2, diffusion, and hierarchical VQ-VAE architectures on **1.5 million multi-channel images**, increasing gene-classification AUROC by **18%** relative to an ImageNet-pretrained baseline.
+- Implemented DeepSpeed ZeRO-3 across **64 A100 GPUs**, reducing epoch latency from **6.4 hours to 1.7 hours** (**3.8× higher training throughput**) and lowering compute cost by **54%**.
+- Developed a discrete latent representation pipeline using VQ-VAE token spaces for conditional generation of unseen perturbations and temporal transitions.
 
----
+### Bick Lab
 
-# Achievements
+**Project Lead** · Madison, Wisconsin · February 2023–June 2024
 
-- **Antlion Pitch Competition Winner**: Secured first place and **$5,000** in the Antlion Pitch Competition at the National Entomological Society of America Conference on the Insect Eavesdropper project, showcasing its innovative approach and potential impact.
-- **Wisconsin Governor’s Business Plan Contest Semi-Finalist**: Advanced to the semi-final round of the annual Wisconsin Governor’s Business Plan Contest with the Insect Eavesdropper project, selected from 52 entries from 30 communities statewide.
-- **World AgriTech Featured Showcase**: Secured **$7,200** to present the Insect Eavesdropper project, recognizing its potential in agricultural innovation.
-- Completed the **Morgridge Entrepreneurial Bootcamp (MEB)**: Participated in a one-week intensive training program focused on technology entrepreneurship, co-sponsored by INSITE and the Weinert Center for Entrepreneurship.
-- Participated and Completed the **Regional NSF I-Corps Program**: Gained insights into entrepreneurship and commercialization strategies for technology innovations for the Insect Eavesdropper. Selected to advance to the national level.
+- Led system architecture and validation for a bioacoustic detection device integrating contact microphones, signal preprocessing, self-supervised feature extraction, and classification; achieved **96% precision** on faint in-plant pest signals.
+- Integrated low-cost LiDAR acquisition with NeRF-based 3D reconstruction, improving species-identification accuracy by **30%** in challenging capture conditions.
+- Converted prototype performance into a validated technical case that contributed to **$350,000** in competitive project funding.
 
----
+### UW Robotics and Graphics Lab
 
-# Publications
+**Research Assistant** · Madison, Wisconsin · October 2021–December 2022
 
-<ul>
-  <li><strong>Geometric Calibration of Single-Pixel Distance Sensors</strong>, Carter Silverman, Dev Mehrotra, Mohit Gupta, and Michael Gleicher, IEEE Robotics and Automation Letters, July 2022, DOI: [10.1109/LRA.2022.3176453](https://doi.org/10.1109/LRA.2022.3176453)</li>
-  <li><strong>Eavesdropping on Herbivores: Using contact microphones to quantify Plant-Insect Interactions</strong>, Dev Mehrotra, Laurence Still, Vidit Agrawal, Kimberly Gibson, James D. Crall, Emily N. Bick, PrePrint, September 24, 2024, [https://doi.org/10.1101/2024.09.23.614472](https://doi.org/10.1101/2024.09.23.614472)</li>
-  <li><strong>Implicit ground truthing: unsupervised learning bridges validation data gaps in ecology</strong>, Dev Mehrotra, In preparation, Expected 2024.</li>
-  <li><strong>Using SPAD Sensors for Insect Detection with NERFs</strong>, Dev Mehrotra, In preparation, Expected 2024.</li>
-</ul>
+- Developed an automated extrinsic-calibration workflow for VL53L3CX and VL6180X time-of-flight sensors using ROS, Gazebo, and UR5; achieved positional accuracy of **3.18 mm and 7.29 mm** and orientation accuracy of **0.61° and 2.01°**.
+- Performed end-to-end pose validation through 3D reconstruction, producing **sub-2 mm residual error** on unseen planar targets.
 
----
+## Education
 
-# Teaching Experience
+### Aarhus University
 
-<ul>
-  <li><strong>Alex Arovas</strong> (2024): Supervised undergraduate student in Computer Science for sensor development projects.</li>
-  <li><strong>Rishit Malpani</strong> (2024): Supervised undergraduate student in Computer Science for OpenCV and audio/camera sensor development projects.</li>
-  <li><strong>Nachiket Kerai</strong> (2024): Supervised undergraduate student in Computer Science for LiDAR sensor development and Neural Scene Reconstruction (NeRF) projects.</li>
-  <li><strong>Vidit Agrawal</strong> (2023–2024): Supervised undergraduate student in Computer Science for unsupervised learning for unlabeled acoustic projects.</li>
-</ul>
+**PhD in Machine Learning and Agroecology** · June 2025–August 2028 (expected)
 
----
+### University of Wisconsin–Madison
 
-# Visiting Scholarships
+**MS in Computer Science**, GPA 3.8 · August 2023–May 2025<br>
+**BS in Computer Science and Data Science**, GPA 3.72 · August 2021–May 2023
 
-<ul>
-  <li><strong>Rothamsted Research, UK</strong>: Focused on integrated pest management and sensor development using machine learning.</li>
-  <li><strong>Kansas State University</strong>: Collaborated on agricultural technology projects aimed at pest monitoring and crop protection using models for higher accuracy.</li>
-  <li><strong>Missouri Soybean Extension</strong>: Engaged in research activities related to soybean pest management and sustainable agriculture using sensors and models.</li>
-  <li><strong>California Extension</strong>: Worked on precision agriculture projects to enhance crop monitoring and pest control techniques by automation and ML.</li>
-</ul>
+## Publications
 
----
+- **Geometric Calibration of Single-Pixel Distance Sensors.** Carter Silverman, Dev Mehrotra, Mohit Gupta, and Michael Gleicher. *IEEE Robotics and Automation Letters* 7(3), July 2022. [DOI: 10.1109/LRA.2022.3176453](https://doi.org/10.1109/LRA.2022.3176453)
+- **Eavesdropping on Herbivores: Using Contact Microphones to Quantify Plant-Insect Interactions.** Dev Mehrotra, Laurence Still, Vidit Agrawal, Kimberly Gibson, James D. Crall, and Emily N. Bick. Preprint, September 2024. [DOI: 10.1101/2024.09.23.614472](https://doi.org/10.1101/2024.09.23.614472)
 
-# Skills
+## Additional technical training
 
-<ul>
-  <li><strong>Programming Languages</strong>: Python, C++, Java, R, SQL</li>
-  <li><strong>Software & Tools</strong>: Kafka, Spark, Docker, Hadoop, Flask, ROS, ReactJS, Laravel PHP, MySQL, React Native</li>
-  <li><strong>Machine Learning Frameworks</strong>: TensorFlow, PyTorch, Scikit-Learn, Keras, OpenCV</li>
-  <li><strong>Other</strong>: Kubernetes, CI/CD, Agile, JIRA</li>
-</ul>
+- Cajal Advanced Neuroscience Training Programme—Quantitative Approaches to Behavior and Virtual Reality (2026)
+- Aarhus Comprehensive Computational Entomology Summer School, ACCESS-2025 (September–October 2025)
+- CaPriC PhD School on Cyber-Physical Computing Systems (October 2025)
+- Morgridge Entrepreneurial Bootcamp
+- NSF I-Corps Regional Program; advanced toward the national I-Corps track
 
----
+## Technical leadership and mentoring
 
-# Media Coverage
+- **Huangjing Qin** (2025): computer-vision pipelines and dataset development for behavioral phenotyping
+- **Alex Arovas** (2024): embedded sensing systems and experimental data acquisition
+- **Rishit Malpani** (2024): OpenCV analysis and acoustic sensor integration
+- **Nachiket Kerai** (2024): LiDAR sensing and NeRF workflows
+- **Vidit Agrawal** (2023–2024): unsupervised learning for unlabeled acoustic data
 
-<ul>
-  <li><strong>WISPOLITICS, 2024</strong>: Wisconsin Governor’s Business Plan Contest: From 30 communities statewide, 52 entries advance in 2024. WISPOLITICS, February 27, 2024.</li>
-  <li><strong>SeedWorld, 2024</strong>: 60+ AgTech Pioneers to Showcase Breakthrough Innovations at World Agri-Tech in San Francisco. KSI, February 16, 2024.</li>
-  <li><strong>Entomological Society of America, 2024</strong>: Insect Eavesdropper: Digital Monitoring of Crop Pests Via Vibrational Signals. Entomology Today, January 17, 2024.</li>
-</ul>
+## Cross-institutional engineering collaborations
+
+- **Rothamsted Research, UK:** integrated pest management and ML-enabled sensor development
+- **Kansas State University:** pest-monitoring and crop-protection technology
+- **Missouri Soybean Extension:** soybean pest management and sustainable agriculture
+- **California Extension:** precision agriculture, automation, and ML-enabled monitoring
+
+## Recognition
+
+- **Antlion Pitch Competition:** first place and $5,000 award
+- **Wisconsin Governor’s Business Plan Contest:** semi-finalist
+- **World AgriTech Featured Showcase:** $7,200 in support
+
+## Product communication and public engagement
+
+- Falling Walls Competition (2024)
+- World AgriTech Innovation Conference (2024)
+- Entomological Society of America Conference—Antlion competition pitch, winner (2024)
+
+## In the media
+
+- [Wisconsin Governor’s Business Plan Contest: 52 entries advance](https://www.wispolitics.com/2024/wisconsin-governors-business-plan-contest-from-30-communities-statewide-52-entries-advance-in-2024/)—WISPOLITICS, 2024
+- [60+ AgTech pioneers to showcase breakthrough innovations](https://www.seedworld.com/us/2024/02/16/60-agtech-pioneers-to-showcase-breakthrough-innovations-at-world-agri-tech-in-san-francisco/)—SeedWorld, 2024
+- [Insect Eavesdropper: Digital Monitoring of Crop Pests Via Vibrational Signals](https://entomologytoday.org/2024/01/17/insect-eavesdropper-digital-monitoring-crop-pests-vibrational-signals-antlion-pit-competition/)—Entomology Today, 2024

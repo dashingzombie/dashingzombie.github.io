@@ -1,25 +1,11 @@
 ---
-title: "Wisconsin Governor’s Business Plan Contest Semi-Finalist"
-excerpt: "Advanced to the semi-final round with the Insect Eavesdropper project.<br/><img src='/images/wisconsin-governor.png' alt='Wisconsin Governor’s Business Plan Contest'>"
+title: "Computer-Vision Data Pipeline"
+excerpt: "A repeatable image-acquisition, quality-control, and data-ingestion pipeline that produced 5,000+ curated images."
 collection: portfolio
 ---
 
-# Wisconsin Governor’s Business Plan Contest Semi-Finalist
+## From imaging variability to ML-ready data
 
-Advanced to the **semi-final round** of the **Wisconsin Governor’s Business Plan Contest** with the **Insect Eavesdropper** project. Selected from **52 entries** statewide, this recognition highlighted the project's innovative approach to pest monitoring and its potential impact on agriculture.
+I built an image-acquisition pipeline integrating programmatic camera control, standardized illumination, structured metadata, quality control, and dataset curation. Controlling capture variance at the source improves input consistency before model training.
 
----
-
-## Overview
-
-The **Insect Eavesdropper** project uses machine learning and sensor technology to detect pest sounds with **96% precision**, enabling early detection and precise monitoring of crop pests. The semi-finalist status underscored its potential as a breakthrough agricultural innovation.
-
----
-
-## Impact
-
-This recognition brought visibility to the project and positioned it as a promising solution for modern pest management challenges. It also provided valuable feedback and exposure to potential investors and collaborators.
-
----
-
-For more details, check out the [project publication](https://doi.org/10.1101/2024.09.23.614472) or contact me at [dmehrotra@wisc.edu](mailto:dmehrotra@wisc.edu).
+The pipeline produced **5,000+ curated images across species** with consistent capture conditions and traceable metadata. It provides a reproducible input specification for downstream computer-vision training, validation, and error analysis.

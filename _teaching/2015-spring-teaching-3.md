@@ -1,11 +1,11 @@
 ---
-title: "Supervised Undergraduate Student - Nachiket Kerai"
+title: "Technical Mentoring — Nachiket Kerai"
 collection: teaching
-type: "Undergraduate Supervision"
+type: "Technical Mentoring"
 permalink: /teaching/2024-nachiket-kerai
-venue: "University of Wisconsin-Madison, Computer Science Department"
+venue: "University of Wisconsin–Madison"
 date: 2024-01-01
-location: "Madison, WI, USA"
+location: "Madison, Wisconsin"
 ---
 
-Supervised Nachiket Kerai in **LiDAR sensor development and Neural Scene Reconstruction (NeRF) projects**. The project explored advanced 3D reconstruction techniques using LiDAR and neural networks.
+Mentored development across **LiDAR sensing and NeRF workflows**, including sensor integration and neural 3D reconstruction.
